@@ -27,7 +27,7 @@ steps:
 
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   id: 'deployer'
-  entrypoint: bash
+  entrypoint: gcloud
   args: 
   - run
   - deploy
