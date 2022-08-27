@@ -34,6 +34,8 @@ steps:
   - 'final-app'
   - --image
   - ${_IMAGE}
+  - --add-cloudsql-instances
+  - 'single-axis-297200:us-west4:test-nuka-kola'
   - --region
   - us-west4
   - --platform
